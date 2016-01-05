@@ -1,0 +1,1240 @@
+
+*{
+    box-sizing: border-box;
+}
+/*-------GENERAL---------*/
+body{
+    color: #475a62; 
+    background: #fff;
+    font-family: "Roboto",Roboto,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    cursor: auto;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #bac2c5;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/*CLEARFIX*/
+.group:before,
+.group:after{
+    content: "";
+    display: table;
+}
+
+.group:after{
+    clear:both;
+}
+
+
+/*----HEADER--------*/
+/*NAVIGATION*/
+.menu1{
+    color: #bac2c5;
+    background: #475a62;
+    font-size: 13px;
+}
+
+.header-content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.navigation{
+    float:right;
+}
+
+.navigation li,
+.social li{
+    float:left;
+}
+
+.navigation{
+    margin-top: 17.5px;
+}
+
+.navigation li a{
+    padding:17.25px 15px;
+}
+
+.selected,
+.navigation a:hover,
+.navigation a:focus{
+    color: #fff;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+.selected{
+    background: #e00a00;
+}
+
+.selected:hover{
+    background: #c10900;
+}
+
+/*SOCIAL-ICONS*/
+.social{
+    float: right;
+    padding-top: 14px;   
+    padding-bottom: 14px;   
+}
+
+.fa{
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.social a{
+    display: block;
+    height: 22px;
+    width: 22px;
+    color: #475a62;
+    border-radius: 50%;
+    background: #74848B;
+    margin-right: 5px;
+}
+
+.social li:nth-child(2) a{
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.social a:hover,
+.social a:focus{
+    background: #BAC2C5;
+}
+
+.Menu-Toggle{
+    display: none;
+}
+/*MENU2*/
+
+/*LOGO*/
+.logo{
+    float: left;
+    margin: 0;
+}
+
+.menu2{
+    height: 80px;
+}
+
+.menu2 .logo a{
+    display: block;
+    background: url("../images/logo.png") 0 0 no-repeat;
+    width: 231px;
+    height: 49px;
+    text-indent: -9999px;
+    margin-top: 7px;
+    padding: 0;
+}
+
+.menu2 ul{
+    float: right;  
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.menu2 li{
+    float: left;
+    margin-right: 5px;
+}
+
+.menu2 li:last-child{
+    margin-right: 0px;
+}
+
+.menu2 ul a{
+    padding:17px 20px;
+    line-height: 28px;
+    text-align: center; 
+    color: #475b62;
+}
+
+.menu2 ul a:last-child{
+    padding:17px 0 17px 20px;
+}
+
+.menu2 a:hover{
+    text-decoration: underline;
+}
+
+/*--------MAIN-----------*/
+
+/*BACKGROUND*/
+
+.background{
+    position: relative;
+    font-size: 0;
+}
+
+.background img{
+    width: 100%;
+    height: auto;
+}
+
+.background-color{
+    position: absolute;
+    width: 100%;
+    min-height: 134px;
+    bottom: 0px;
+    background: rgba(224, 10, 0, 0.901961);
+}
+
+.background-content{
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.background-content h1,
+.background-content p{
+    color: white;
+    font-weight: 300;
+}
+    
+.background-content h1{
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 39px;
+    text-transform: uppercase;
+}
+
+.background-content p{    
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.sipkaVPravo{
+    display: block;
+    width: 34px;
+    height: 65px;
+    background: url('../images/sipka_big_white_right.png');
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+
+/*-----ARTICLE-----*/
+
+/*POSTHEADER*/
+
+article>header{
+    max-width: 960px;
+    height: 183px;
+    margin: 0 auto;
+}
+
+.post-title,
+.post-content{
+    margin-top: 44px;
+}
+
+.post-title{
+    float: left;
+}
+
+.post-title h2{
+    margin-top: 0px;
+    color: #495a64;
+    font-size: 39px;
+    font-weight: 300;
+}
+.post-content{
+    max-width: 640px;
+    float: right;
+}
+
+.post-content p{
+    margin-top: 0;
+    font-size: 16px;
+    color: #475a62;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 25.6px;
+}
+
+/*Najziadanejsie produkty*/
+.backgroundNajziadanejsieProdukty{
+    width: 100%;
+    height: 431px;
+    background: #e8edf1;
+}
+
+.najziadanejsieProdukty{
+    max-width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.najProHreader{
+    padding-top: 54px;
+    margin-bottom: 36px;
+    position: relative;
+}
+
+.najProHreader h2{
+    margin: 0;
+    color: #465a62;
+    font-size: 39px;
+    font-weight: 300;
+    float: left;
+}
+
+.zobrazitVsetky{
+    font-weight: normal;
+    color:#475A62;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.zobrazitVsetky img{
+    padding-left: 20px;
+    position: relative;
+    top: 2px;
+    right:0;
+}
+
+.zobrazitVsetky:hover {
+    color: #e00a00;
+}
+
+.obrazokNajPro{
+    width: 100%;
+    height: 161px;
+}
+
+.obrazokNajPro a{
+    display: block;
+    width: 100%;    
+    height: 100%;
+}
+
+.najziadanejsieProdukty li{
+    width: 300px;
+    height: 232px;
+}
+
+.najziadanejsieProdukty ul li:last-child{
+    margin-right: 0;
+}
+
+.najPro{
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    background: #f2f6f9;
+    height: 72px;
+}
+
+.najPro h2{
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 71px;
+    background: #475a61;
+}
+
+.popisNajPro{
+    position: absolute;
+    top:16.5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    width: 84%;
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+}
+
+.najPro:hover h2{
+    background: #e00a00;
+}
+
+.smerR{
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+
+/*3POHLADY*/
+
+.pohlady{
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.pohladytitle h2{
+    padding-top: 54px;
+    padding-bottom: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #475A62;
+    font-weight: 300;
+    font-size: 39px;
+    font-style: normal;
+    font-family: 'Roboto Slab', Roboto, Georgia, 'Times New Roman', Times, serif;
+}
+
+.pohladyUL li{
+    width: 300px;
+    min-height: 180px;
+    float: left;
+    background: #fafbfd;
+    margin-right: 30px;
+    position: relative; 
+    border-top: 1px solid #e5edf0;
+}
+
+.pohladyUL li:last-child{
+    margin-right: 0px;
+}
+
+.pohladyUL div{
+    width: 100%;
+    height: 100%;
+}
+
+.pohladyUL a{
+    width: 100%;
+    height: 100%;
+}
+
+.pohladyUL h3{
+    color: #415259;
+    padding-top: 26px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.pohladyUL p{
+    color: #475a62;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    margin: 0px;
+    padding: 0 20px 40px;
+    line-height: 25.6px;
+}
+
+.pohladyUL li:hover {
+    background: #e00a00;
+}
+
+.pohladyUL li:hover h3,
+.pohladyUL li:hover p {
+    color:white;
+}
+
+/*Pre-footer*/
+
+.pre-footer{
+    width: 960px;
+    margin:66px auto 54px;
+    text-align: center;
+}
+
+.pre-footer-nadpis{
+    margin-top: 0px;
+    padding-top: 54px;
+    margin-bottom: 5px;
+    display: block;
+    border-top: 1px solid #cddbe4;
+}
+
+.pre-footer-nadpis a{
+    color: #475A62;
+    font-size: 39px;
+    font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+    text-transform: none;
+    font-weight: 300;
+}
+
+.idealneRiesenie{
+    color: #E00A00;
+}
+
+.pre-footer-Kontakt{
+    color: #475A62;
+    font-family: Roboto, Roboto, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.pre-footer-Kontakt:hover{
+    text-decoration: underline;
+    
+}
+
+/*Sponzory*/
+
+.sponzory{
+    background: #e8edf1;
+    font-size: 0;
+}
+
+.sponzory>div{
+    position: relative;
+    max-width: 960px;
+    height: 142px;
+    margin: 0 auto;
+}
+
+.sponzory-obrazky{
+    max-width: 910px;
+    margin: 0 auto;
+    padding-top:36px;
+    height: 100%;
+}
+
+.sponzory-obrazky div{
+    float:left;
+    max-width: 227.5px;
+}
+
+.sponzory-obrazky img{
+    margin-right: 28.75px;
+    margin-left: 28.75px;
+}
+
+.sponzory .vlavo,
+.sponzory .vpravo{
+    position: absolute;
+}
+
+.sponzory .vlavo{
+    top: 55px;
+    left:0;
+}
+
+.sponzory .vpravo{
+    right:0;
+    bottom: 55px;
+}
+
+
+/*FOOTER*/
+footer{
+    background: #475a61;
+    color:#BAC2C5;
+}
+.footer{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 45px 0px;
+}
+
+.M2M-footer,
+.nav-footer,
+.kontakt-footer
+{
+    width: 300px;
+    float:left;
+}
+
+.footer-content div{
+    margin-right: 30px;
+}
+.footer-content div:last-child{
+    margin-right: 0px;
+}
+
+footer h5{
+    margin: 0;
+    color: #dcdddf;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #61747b;
+}
+
+.M2M-footer p{
+    margin-top: 18px;
+    margin-bottom: 22px;
+    font-size: 14px;
+    line-height: 23.24px;
+}
+
+.nav{
+    margin-top: 18px;
+}
+
+.nav-footer li{
+    margin-bottom: 5px;
+    float: left;
+    width: 150px;
+}
+
+.nav-footer li:last-child{
+    margin-bottom: 0;
+}
+
+.nav-footer a{
+    font-size: 14px;
+    color: #dadee1;
+}
+
+.kontakt-footer{
+    line-height: 23.24px;
+}
+
+.kontakt-footer a{
+    margin-top: 5px;
+    display: block;
+    width: 140px;
+    height: 30px;
+    margin-bottom: 24px;
+}
+
+.nav-footer a:hover{
+    text-decoration: underline;
+}
+
+.last-line{
+    border-top: 1px solid #61747b;
+    padding-top: 22px;
+    font-size: 14px;
+    color: #d0d8db;
+}
+
+/*RESPONSIVE*/
+@media(max-width: 1024px) {
+    
+    
+    /*HEADER*/
+    /*NAV1*/
+    .header-content {
+        width: 804.375px;
+        height: 100%;
+    }
+    
+    .menu1{
+        height: 40.625px;   
+        font-size: 10.5625px;     
+    }
+    
+    .navigacia{
+        padding: 0 12.188px;
+    }
+    
+    .logo{
+        padding-left: 12.188px;
+    }
+        
+    .navigation{
+        margin-top: 13.5px;
+    }
+
+    .navigation li a{
+        padding:13.5px 15px;
+    }
+    
+    .social{
+        padding-top: 11px;   
+        padding-bottom: 11px;   
+    }
+    .social a{
+        height: 17.875px;
+        width: 17.875px;
+    }
+    
+    .social li:nth-child(2) a{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .fa{
+        margin-left: 5px;
+    }
+    
+    .header-content>ul{
+        padding-right: 12.188px
+    }
+    /*NAV2*/ 
+    
+    /*Obrazok na vrchu*/
+    
+    .background-color{
+        position: relative;
+        min-height: 108.75px;
+    }
+    
+    .background-content{
+        padding: 22.5px 11.25px;
+        text-align: center;
+    }
+    
+    .background-content h1{
+        margin-top: 0;
+        font-size: 31.6875px;
+    }
+    
+    .background-content p{
+        font-size: 16.25px;
+        margin:0;
+    }
+    
+    .sipkaVPravo{
+        top: calc(50% - 32.5px);
+        right: 12.188px;
+    }
+    /*ARCICLE*/
+    
+    /*HEADER*/
+    article>header{
+        max-width: 804.375px;   
+        height: 150px;
+        padding: 0 12.188px;
+    }
+    .article-header-content{
+        max-width: 780px;
+    }
+    
+    .post-title{
+        width: 34.32%;// 243.734px;
+    }
+    
+    .post-title h2{
+        font-size: 31.6875px;
+        margin-right: 24.376px;
+    }
+    
+    .post-content{
+        width: 65.67%;
+    }
+    
+    .post-content p{
+        line-height: 20.8px;        
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    
+    /*NAJZIADANEJSIE-PRODUKTY*/
+    .backgroundNajziadanejsieProdukty{     
+        height: 379.375px;
+    }
+    
+    .najziadanejsieProdukty{
+        max-width: 804.375px;
+    }
+    
+    .najProHreader{
+        padding-top: 45px;
+        max-width: 780px;
+        margin: 0 auto 28px;
+    }
+    
+    .najProHreader h2{
+        font-size: 31.6875px;
+    }
+    .najProHreader a{
+        font-size: 13px;
+    }
+        
+    .najziadanejsieProdukty li{
+        margin-right: 12.188px;
+        margin-left: 12.188px;
+        max-width: 243.734px;
+        height: 214px;
+    }
+    
+    .najPro:hover h2{
+        background: #475a61;;
+    }
+
+    .obrazokNajPro{
+        height: 157px;
+    }
+    
+    .obrazokNajPro a{
+        height: 140px;
+    }
+
+    .najPro h2{
+        height: 57.75px;
+    }
+    
+    .najPro h2 a{
+        top: 12.5px;
+        font-size: 13.8125px;
+    }
+    
+    .smerR{
+        display: none;
+    }
+        
+    /*POHLADY*/
+    .pohlady{
+        max-width: 804.375px; 
+    }
+    .pohladytitle h2{
+        padding-top: 45px;
+        padding-bottom: 30px;
+        font-size: 31.6875px;
+    }
+    
+    .pohladyUL li{
+        width: 243.734px;
+        min-height: 146.875px;
+        margin-right: 12.188px;
+        margin-left: 12.188px;
+    }
+    
+    .pohladyUL h3{
+        font-size: 16.25px;;
+        margin-bottom: 7px;
+    }
+    
+    .pohladyUL p{
+        font-size: 13px;
+        line-height: 20.8px;
+    }
+    
+    /*PRE-FOOTER*/
+    .pre-footer{
+        margin-top: 54.375px;
+        max-width: 779.999px;
+        margin-bottom: 45px;
+    }
+    .pre-footer-nadpis{
+        padding-top: 45px;
+    }
+    
+    .pre-footer-nadpis a{
+        font-size: 31.6875px;
+    }
+    
+    .pre-footer-Kontakt{
+        font-size: 17.875px;
+    }
+    
+    /*SPONZORY*/
+    .sponzory>div{
+        max-width:804.375px;
+        height: 130px;
+    }
+    
+    .sponzory-obrazky{
+        max-width: 732px;
+        padding-top:30px;
+        padding-bottom: 30px;
+    }
+    
+    .sponzory-obrazky div{
+        max-width: 183px;
+    }
+    
+    .sponzory-obrazky div img{
+        margin-right: 6.5px;
+        margin-left: 6.5px;
+    }
+
+    .sponzory .vpravo{
+        bottom: 49px;
+        right: 12.188px;
+    }
+    
+    .sponzory .vlavo{
+        top: 49px;
+        left: 12.188px;
+    }
+    
+    /*FOOTER*/
+    
+    .footer{
+        max-width: 804.375px;
+        padding:37.5px 12.188px;
+    }
+    
+    .M2M-footer{
+        float: none;
+        width: 100%;
+    }
+    
+    footer h5{
+        font-weight: normal;
+        font-size: 14.625px;
+        padding-bottom: 14.625px;
+    }
+
+    .M2M-footer p{
+        margin-top: 14.625px;
+        font-size: 11.375px;
+        line-height: 18.8825px;
+    }
+    
+    .nav-footer{
+        width: 377.813px;
+        padding-bottom: 22px;
+    }
+    .footer-content div{
+        margin-right: 12.188px;
+    }
+    
+    .nav{
+        margin-top: 14.625px;
+    }
+    
+    .nav-footer li{
+        margin-bottom: 0;
+        width: 185.125px;
+    }
+    
+    .nav-footer a{
+        font-size: 11.375px;
+    }
+    
+    .kontakt-footer{
+        line-height: 18.8825px;
+        font-size: 11.375px;
+        width: 377.813px;
+    }
+    
+    .last-line{ 
+        font-size: 11.375px;
+    }
+    
+    .last-line a{
+        text-transform: none;
+    }
+    
+    .last-line a:hover span{
+        text-decoration: underline;
+    }
+}
+
+@media(max-width: 826px){
+    
+    .header-content {
+        width: 100%;
+    }
+    
+    .background-color{
+        max-width: 805px;
+    }
+    
+    .najziadanejsieProdukty,
+    .pohlady{
+        margin: 0 12.188px;
+    }
+    
+    .najziadanejsieProdukty li,
+    .pohladyUL li{
+        margin: 0 24.376px 0 0;
+        width: 30.6%; //243.734px;
+    }
+    
+    .najziadanejsieProdukty li:last-child,    
+    .pohladyUL li:last-child{
+        margin: 0;
+    }
+    
+    .pohladyUL p{
+        padding-bottom: 32.875px;
+    }
+    
+    .pre-footer{
+        width: 100%;
+    }
+    
+    .pre-footer-nadpis{
+        margin-left: 12.188px;
+        margin-right: 12.188px;
+    }
+    
+    .sponzory-obrazky{
+        margin-right: 36px;
+        margin-left: 36px;
+    }
+    
+    .sponzory-obrazky>div{
+        width: 25%;
+        text-align: center;
+    }
+    
+    .sponzory-obrazky div img{
+        margin:0 auto;
+    }
+    
+    .nav-footer{
+        width: 48%;
+    }
+    .nav-footer li{
+        width: 50%;
+    }
+    
+    .kontakt-footer{
+        width: 47%;
+    }
+    
+}
+
+@media(max-width: 767px){
+    .sponzory-obrazky div:last-child{
+        display: none;
+    }
+    .sponzory-obrazky>div{
+        max-width: 100%;
+        width: 33.3333%;
+    }
+    
+}
+
+@media(max-width: 640px){
+    
+    .navigation{
+        display: none;
+    }
+    
+    .Menu-Toggle{
+        float: right;
+        display: block;
+        line-height: 41px;
+        font-size: 12px;
+        height: 39px;
+        padding: 0 36px 0 11.25px;
+    }
+
+    .Menu-Toggle span:after{
+        content: "";
+        width: 16px;
+        position: absolute;
+        right: 23px;
+        top: 13px;
+        box-shadow: 0 0 0 1px #bac2c5,0 7px 0 1px #bac2c5,0 14px 0 1px #bac2c5;
+    }
+    
+    .Menu-Toggle:hover{
+        text-decoration: underline;
+    }
+    
+    .social{
+        float: left;
+    }
+    .logo{
+        float: none;
+        padding-top: 7px;
+        margin-left: calc(50% - 115.5px);
+    }
+    
+    .header-content>ul{
+        display: none;
+    }
+    
+    .background-content h1{
+        font-size: 29.25px;
+    }
+    
+    .background-content p{
+        font-size: 15px;
+    }
+    
+    .sipkaVPravo{
+        display: none;
+    }
+    
+    article>header{
+        margin-bottom: 36px;
+    }
+    
+    .post-title{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    
+    .post-title h2{
+        margin-bottom: 0;
+        font-size: 29.25px;
+    }
+    
+    .post-content{
+        margin: 0;
+        float: none;
+        width: 100%;
+    }
+    
+    .post-content p{
+        font-size: 12px;
+    }
+    
+    .backgroundNajziadanejsieProdukty{
+        height: 804.5px;
+    }
+    
+    .najProHreader{
+        padding-top: 36px;
+        margin-bottom: 24px;
+    }
+    
+    .najProHreader h2{
+        font-size: 29.25px;
+    }
+    
+    .najProHreader a{
+        font-size: 12px;
+    }
+    
+    .najPro h2 a{
+        font-size: 12.75px;
+    }
+    
+    .najziadanejsieProdukty li, .pohladyUL li{
+        float: none;
+        width: 100%;
+        height: 207px;
+        max-width: 100%;
+        margin-bottom: 22.5px;
+    }
+    
+    .pohladyUL li{
+        height: auto;
+        min-height: 0;
+    }
+    
+    .pohladyUL h3{
+        font-size: 15px;
+    }
+    
+    .pohladyUL p{
+        font-size: 12px;
+    }
+    .pre-footer-nadpis a {
+        font-size: 22.5px;
+    }
+
+    .pre-footer-Kontakt{
+        font-size: 15px;
+    }
+    
+    .sponzory>div{
+        height: 118px;
+    }
+    .sponzory-obrazky{
+        padding: 24px 0;
+    }
+}
+
+@media(max-width: 600px){
+    
+    .sponzory>div{
+        height: auto;
+    }
+    
+    .sponzory .vlavo,
+    .sponzory .vpravo{
+        top: 35%;
+    }
+    
+    .sponzory-obrazky{
+        height: auto;
+    }
+    
+    .sponzory-obrazky img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media(max-width: 482px) and (min-width:351px){
+    .zobrazitVsetky{
+        position: relative;
+    }
+}
+
+@media(max-width: 479px){
+
+    .sponzory>div{
+        height: 118px;
+    }
+    
+    .sponzory .vlavo,
+    .sponzory .vpravo{
+        top: 40%;
+    }
+    
+    .sponzory-obrazky div:nth-child(3){
+        display: none;
+    }
+    .sponzory-obrazky>div{
+        max-width: 100%;
+        width: 50%;
+    }
+    
+}
+
+
+
+@media(max-width: 432px){
+    
+    .sponzory>div{
+        height: auto;
+    }
+    
+    .sponzory .vlavo,
+    .sponzory .vpravo{
+        top: 35%;
+    }
+    
+    .sponzory-obrazky{
+        height: auto;
+    }
+    
+    .sponzory-obrazky img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+@media(max-width: 300px){
+    
+    .menu2 .logo a{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .background-content h1{
+        font-size: 20px;
+    }
+    
+    .background-content p{
+        font-size: 13px;
+    }
+    
+    article>header{
+        height: auto;
+    }
+    
+    .zobrazitVsetky{
+        position: relative;
+    }
+    
+}
